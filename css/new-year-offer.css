@@ -1,0 +1,391 @@
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.merriweather {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* === Header Styles === */
+
+.header_banner_section {
+    margin: 50px 140px 120px;
+}
+
+.header_banner_section img {
+    display: block;
+    width: 100%;
+}
+
+/* === Happy New Year Styles === */
+.happy_new_year_section {
+    margin: 0px 395px 120px;
+    text-align: center;
+}
+
+.happy_new_year_title {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 88px;
+    margin-bottom: 48px;
+}
+
+.happy_new_year_description {
+    color: #FF0000;
+    font-weight: 500px;
+    font-size: 24px;
+}
+
+.happy_new_year_subtitle {
+    color: #070211;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 48px;
+}
+
+/* === Welcome Styles === */
+.welcome_section {
+    margin: 0px 140px 120px;
+    background-image: url('../new-year-offer-resources/images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.welcome {
+    display: flex;
+}
+
+.welcome_image {
+    margin: 65px 135px 65px 40px;
+}
+
+.welcome_title h2 {
+    font-size: 64px;
+    color: white;
+    line-height: 88px;
+    letter-spacing: 7px;
+    margin-top: 125px;
+    margin-left: 120px;
+}
+
+.welcome_description {
+    margin: 24px 0px 32px 125px;
+    color: white;
+    font-size: 18px;
+}
+
+.welcome_button {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 140px;
+    margin-left: 155px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+/* === Join Now Styles === */
+.join_now_section {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+    margin: 120px 140px 0px;
+    display: flow-root;
+    border-radius: 10px;
+}
+
+.join_now {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.join_now_section .join_now p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 56px;
+    color: #070211;
+}
+
+.join_now_section .join_now span {
+    color: #FF0000;
+}
+
+.join_now_button {
+    margin-top: 48px;
+}
+
+.join_now_button a button {
+    background-color: #FF0000;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.join_now_button a {
+    text-decoration: none;
+}
+
+/* === Best Offer Styles === */
+.best_offer_section {
+    margin: 120px 140px 0px;
+}
+
+.best_offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.best_offer_column1 {
+    flex: 1;
+    max-width: 393px;
+    margin-top: 85px;
+}
+
+.best_offer_nbo {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FF0000;
+}
+
+.best_offer_title {
+    margin: 16px 0px 22px 0px;
+    font-size: 48px;
+}
+
+.best_offer_description {
+    font-size: 20px;
+    color: #070211;
+    line-height: 32px;
+}
+
+.best_offer_column2 {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.best_offer_image {
+    border: 15px solid red;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 45px;
+    max-width: 463px;
+}
+
+.best_offer_column3 {
+    flex: 1;
+    max-width: 276px;
+    text-align: left;
+    margin-top: 85px;
+}
+
+.best_offer_year {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.best_offer_year_description {
+    margin: 16px 0 43px 0;
+    color: #070211;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* === Holiday Sale Styles ===*/
+.holiday_sale_section {
+    background-image: url('../new-year-offer-resources/images/Rectangle 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 120px 140px 0;
+}
+
+.holiday_sale_content {
+    text-align: center;
+}
+
+.holiday_sale_wif {
+    font-weight: 500;
+    font-size: 24px;
+    color: #070211;
+}
+
+.holiday_sale_title {
+    font-size: 72px;
+    margin: 16px 0 28px 0;
+}
+
+.holiday_sale_title span {
+    color: #FF0000;
+}
+
+.holiday_sale_description {
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 65px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.holiday_sale_image {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.circle_image {
+    max-width: 305px;
+}
+
+.box_image {
+    max-width: 675px;
+}
+
+/* === Awesome Portfolio Styles */
+.awesome_portfolio_section {
+    margin: 120px 140px 0;
+}
+
+.awesome_portfolio_image {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.awesome_portfolio_tbg {
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+}
+
+.awesome_portfolio_title {
+    font-size: 48px;
+    color: #070211;
+    margin: 16px 0 22px 0;
+}
+
+.awesome_portfolio_description {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 48px;
+}
+
+/* === Subscribe Styles === */
+.subscribe_section {
+    margin: 120px 140px 0;
+    background-color: rgba(255, 0, 0, 0.1)
+}
+
+.subscribe_image {
+    display: block;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.subscribe_title {
+    font-size: 48px;
+    color: #070211;
+    text-align: center;
+    margin: 40px 0 22px;
+}
+
+.subscribe_description {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.6);
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.subscribe_form {
+    text-align: center;
+    margin: 0 336px 80px;
+    position: relative;
+    display: inline-block;
+}
+
+.subscribe_input {
+    border-radius: 50px;
+    width: 648px;
+    font-size: 20px;
+    border: none;
+}
+
+.subscribe_input::placeholder {
+    color: rgba(7, 2, 17, 0.3);
+}
+
+.subscribe_btn {
+    border-radius: 0 50px 50px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 210px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #FF0000;
+    border: none;
+}
+
+.subscribe_form input[type="email"],
+.subscribe_form button {
+    padding: 25px
+}
+
+/* === Footer Styles === */
+.footer_section {
+    background-color: #070211;
+    margin-top: 120px;
+}
+
+.footer {
+    padding: 120px 140px 120px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.footer_column {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer_column_icon {
+    text-align: center;
+}
+
+.contact p a,
+.unsubscribe p a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_section .footer hr {
+    margin: 48px 0 50px;
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
